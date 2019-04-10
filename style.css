@@ -1,0 +1,18 @@
+* {
+ box-sizing: border-box;
+ font-family: Verdana, Geneva, sans-serif;
+ margin: 0;
+}
+/*...*/
+#missatges p {
+ background-color: #97CAEF;
+ padding: 2px 8px;
+}
+#missatges p:nth-child(odd) {
+ background-color: #CAFAFE;
+}
+/*...*/
+#errors p {
+ background-color: #FC4445;
+ padding: 2px 8px;
+}
